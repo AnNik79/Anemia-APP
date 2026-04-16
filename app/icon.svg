@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
   <title id="title">BSD app icon</title>
-  <desc id="desc">A simple BSD monogram on a blue rounded-square background.</desc>
+  <desc id="desc">A simple BSD monogram on a rose rounded-square background.</desc>
   <defs>
     <linearGradient id="bg" x1="28" y1="24" x2="228" y2="232" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#1d63d2" />
-      <stop offset="1" stop-color="#0f4aa8" />
+      <stop offset="0" stop-color="#b8325f" />
+      <stop offset="1" stop-color="#8b2144" />
     </linearGradient>
   </defs>
   <rect width="256" height="256" rx="56" fill="url(#bg)" />
