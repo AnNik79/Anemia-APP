@@ -244,8 +244,8 @@ export const contactContent = {
     "Have a question or need help with something? Reach out and our team will respond shortly",
   contactLinks: [
     {
-      label: "aninik215@gmail.com",
-      href: "mailto:aninik215@gmail.com",
+      label: "contact@biotransportai.com",
+      href: "mailto:contact@biotransportai.com",
       type: "email" as const,
     },
     // {
@@ -285,8 +285,8 @@ export const sharedContent = {
   ],
   footerContact: [
     {
-      label: "aninik215@gmail.com",
-      href: "mailto:aninik215@gmail.com",
+      label: "contact@biotransportai.com",
+      href: "mailto:contact@biotransportai.com",
       type: "email" as const,
     },
     {
