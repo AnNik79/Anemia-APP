@@ -283,6 +283,10 @@ export const sharedContent = {
     { label: "About", href: "/about-us" },
     { label: "Contact", href: "/contact" },
   ],
+  otherScreening: {
+    label: "Diabetes Screening",
+    href: "https://diabetes.biotransportai.com/",
+  },
   footerContact: [
     {
       label: "contact@biotransportai.com",
