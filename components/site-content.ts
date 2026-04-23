@@ -204,6 +204,18 @@ export const homeContent = {
     "See clear anemia risk guidance",
     "Use a guided example for better photos",
   ],
+  faqs: [
+    {
+      question: "How often should I use this diagnostic tool?",
+      answer:
+        "You can use the tool periodically to monitor potential changes, such as once every few weeks or months. However, it should not replace regular checkups with a healthcare professional. If you notice concerning results, follow up with a doctor.",
+    },
+    {
+      question: "Is my personal health information secure?",
+      answer:
+        "Yes, your data are protected using encryption and secure storage. Images and results are handled confidentially and are not shared without your consent.",
+    },
+  ],
 };
 
 export const aboutContent = {
@@ -283,10 +295,10 @@ export const sharedContent = {
     { label: "About", href: "/about-us" },
     { label: "Contact", href: "/contact" },
   ],
-  otherScreening: {
-    label: "Diabetes Screening",
-    href: "https://diabetes.biotransportai.com/",
-  },
+  screeningMenu: [
+    { label: "Diabetes", href: "https://diabetes.biotransportai.com/", current: false },
+    { label: "Anemia", href: "/", current: true },
+  ],
   footerContact: [
     {
       label: "contact@biotransportai.com",
