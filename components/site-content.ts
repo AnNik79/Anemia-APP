@@ -211,9 +211,29 @@ export const homeContent = {
         "You can use the tool periodically to monitor potential changes, such as once every few weeks or months. However, it should not replace regular checkups with a healthcare professional. If you notice concerning results, follow up with a doctor.",
     },
     {
+      question: "How can I interpret the results?",
+      answer:
+        "Results are presented as risk levels: low, moderate, or high risk. A higher risk result means you should seek medical advice for further testing. A low-risk result does not guarantee the absence of anemia, but you are at a very low risk.",
+    },
+    {
+      question: "I already have anemia - can I still use the anemia risk tool?",
+      answer:
+        "Yes, this tool can be useful for both people with and without anemia.",
+    },
+    {
       question: "Is my personal health information secure?",
       answer:
         "Yes, your data are protected using encryption and secure storage. Images and results are handled confidentially and are not shared without your consent.",
+    },
+    {
+      question: "Do I need a special camera or app?",
+      answer:
+        "No, there is no special equipment required. You can use your phone's standard camera, whether it is iOS or Android. Just make sure the image is clear and well-lit for the best results.",
+    },
+    {
+      question: "Are these diagnostic tools?",
+      answer:
+        "No, this is a risk assessment tool, not a diagnostic device. It is designed to provide general insights based on the image you submit. If you have concerns about your health or receive a high-risk result, you should consult a qualified medical professional for proper testing and advice.",
     },
   ],
 };
