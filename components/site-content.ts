@@ -364,9 +364,16 @@ export const sharedContent = {
     { label: "Contact", href: "/contact" },
     { label: "Terms", href: "/terms" },
   ],
+  footerSocial: [
+    {
+      label: "LinkedIn",
+      href: "https://www.linkedin.com/company/biotransport-systems-development/",
+    },
+  ],
   screeningMenu: [
     { label: "Diabetes", href: "https://diabetes.biotransportai.com/", current: false },
     { label: "Anemia", href: "/", current: true },
+    { label: "Glaucoma", href: "https://glaucoma.biotransportai.com/", current: false },
   ],
   footerContact: [
     {
