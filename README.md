@@ -20,10 +20,10 @@ Open `http://localhost:3000` in your browser.
 
 ## Prediction API
 
-The app posts uploaded images to `app/api/predict/route.ts`. Set an anemia model endpoint before using live predictions:
+The app posts uploaded images to `app/api/predict/route.ts`. It defaults to the production anemia prediction endpoint:
 
 ```bash
-ANEMIA_PREDICTION_ENDPOINT=https://your-endpoint.example/predict
+https://qk6k15dt70.execute-api.us-east-1.amazonaws.com/prod/predict
 ```
 
-If the endpoint is not configured, the UI still builds and loads, but live prediction requests return a configuration error.
+Set `ANEMIA_PREDICTION_ENDPOINT` to override the endpoint locally.

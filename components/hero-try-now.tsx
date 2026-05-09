@@ -16,9 +16,10 @@ type SubmitState = "idle" | "submitting" | "success" | "error";
 
 type PredictionResponse = {
   prediction: 0 | 1;
+  prediction_label?: string;
   confidence: number;
-  message: string;
-  metadata: {
+  message?: string;
+  metadata?: {
     which_eye: string;
     sex: string;
     age: number;
@@ -42,6 +43,7 @@ const RING_CIRCUMFERENCE = 2 * Math.PI * RING_RADIUS;
 
 function ResultRing({ result }: { result: PredictionResponse }) {
   const isHighRisk = result.prediction === 1;
+  const predictionLabel = result.prediction_label ?? (isHighRisk ? "Anemic" : "Non-anemic");
   const confidencePct = Math.round(result.confidence * 100);
   const targetOffset = RING_CIRCUMFERENCE * (1 - result.confidence);
 
@@ -85,7 +87,7 @@ function ResultRing({ result }: { result: PredictionResponse }) {
 
       <div className="result-verdict">
         <span className={`result-badge${isHighRisk ? " result-badge--risk" : " result-badge--safe"}`}>
-          {isHighRisk ? "Higher Risk" : "Lower Risk"}
+          {predictionLabel}
         </span>
         <h3 className="result-title">
           {isHighRisk
